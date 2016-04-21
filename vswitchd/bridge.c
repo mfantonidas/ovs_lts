@@ -567,6 +567,12 @@ collect_in_band_managers(const struct ovsrec_open_vswitch *ovs_cfg,
 }
 
 static void
+mytest_reconfigure()
+{
+    struct ovsrec_mytest *mt;
+}
+
+static void
 bridge_reconfigure(const struct ovsrec_open_vswitch *ovs_cfg)
 {
     unsigned long int *splinter_vlans;
